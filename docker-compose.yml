@@ -7,9 +7,9 @@ services:
     restart: always
     env_file:
       - .env
-    ports:
-      - "9008:8080"
-
+    # ports:
+    #  - "9008:8080"
+    network_mode: host
     deploy:
       resources:
         limits:

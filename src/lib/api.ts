@@ -1,4 +1,4 @@
-export const BACKEND_URL = "https://89.116.32.166/mock-interview/";
+export const BACKEND_URL = "http://89.116.32.166:9001/";
 
 export async function uploadResumeExtract(sessionId: string, file: File) {
   const form = new FormData();
